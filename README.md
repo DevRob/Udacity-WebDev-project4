@@ -1,7 +1,7 @@
 Website Performance Optimization portfolio project
 
 ###Setting up Project:
-I installed node.js and gulp than re-organised the project folder so all the original HTML/CSS/JavaScript/images is in the 'Dev' folder. The system set up in a way that if I start gulp it will start a listener and will compress any element changed in the 'Dev' folder and move it in the right place in the project folder. <br/>Check ['Dev'](https://github.com/DevRob/Udacity-WebDev-project4/tree/master/Dev) folder for commented readable codes.
+Installed node.js and gulp than re-organised the project folder so all the original HTML/CSS/JavaScript/images is in the 'Dev' folder. The system set up in a way that gulp will start a listener and will compress any element changed in the 'Dev' folder and move it in the right place in the project folder. <br/>Check ['Dev'](https://github.com/DevRob/Udacity-WebDev-project4/tree/master/Dev) folder for commented readable codes.
 
 ###Part 1: Optimize index.html
 
@@ -12,7 +12,7 @@ I installed node.js and gulp than re-organised the project folder so all the ori
 
 ###Part 2: Optimize pizza.html
 
-* gulpfile.js contains gulp script to compress HTML/CSS/JS/images. (excluded node-modules folder from push due size and long filename issues, but I listed the plugins I used below.)
+* gulpfile.js contains gulp script to compress HTML/CSS/JS/images. (excluded 'node-modules' folder from push due size and long filename issues, but I listed the plugins I used below.)
 * moved variables out of for loops and saved array lengths, in a local variable, which are part of the condition statement.
 * reduced the number of generated "flying pizzas" from 200 to 40
 * moved style for '.mover class' to style.css and replaced
