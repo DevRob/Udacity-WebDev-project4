@@ -1,28 +1,25 @@
 Website Performance Optimization portfolio project
 
 ###Setting up Project:
-######  I installed node.js and gulp than re-organised the project folder so all the original HTML/CSS/JavaScript/images is in the 'Dev' folder. The system set up in a way that if I start gulp it will start a listener and will compress any element changed in the 'Dev' folder and move it in the right place in the project folder. <br/>Check ['Dev'](http://devrob.github.io/Udacity-WebDev-project4/Dev) folder for commented readable codes.
+#######  I installed node.js and gulp than re-organised the project folder so all the original HTML/CSS/JavaScript/images is in the 'Dev' folder. The system set up in a way that if I start gulp it will start a listener and will compress any element changed in the 'Dev' folder and move it in the right place in the project folder. <br/>Check ['Dev'](https://github.com/DevRob/Udacity-WebDev-project4/tree/master/Dev) folder for commented readable codes.
 
 ###Part 1: Optimize index.html
 
-* removed render-blocking stylesheets for mobile devices.
-* inlined style for mobile device.
+* removed render-blocking stylesheets by inlining it in HTML.
 * async-ed JavaScripts.
 * compressed images.
 * [Hosted portfolio page on GitHub to analyse](http://devrob.github.io/Udacity-WebDev-project4)
 
 ###Part 2: Optimize pizza.html
 
-* resized and compressed images.
-* moved variables  out of for loops and saved array lengths, in a local variable, which are part of the condition statement.
+* gulpfile.js contains gulp script to compress HTML/CSS/JS/images. (excluded node-modules folder from push due size and long filename issues, but I listed the plugins I used below.)
+* moved variables out of for loops and saved array lengths, in a local variable, which are part of the condition statement.
 * reduced the number of generated "flying pizzas" from 200 to 40
-* moved style for '.mover class' to style.css
-<<<<<<< HEAD
+* moved style for '.mover class' to style.css and replaced
+* Web API call tweak "document.getElementsByClassName()"
 * [link for Pizza.html](http://devrob.github.io/Udacity-WebDev-project4/pizza.html)
-=======
 * minified main.js ans style.css for pizza html(only in gh-pages branch)<br/>see comments and code style in ➤ [master/views](https://github.com/DevRob/Udacity-WebDev-project4/tree/master/views)
 * Link for [Pizza.html](http://devrob.github.io/Udacity-WebDev-project4/views/pizza.html)
->>>>>>> 09282f7b4cc8d271803dd30c0050eccf1bf39aa5
 
 ###Resources and tools I used:
 
