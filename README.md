@@ -1,7 +1,7 @@
 Website Performance Optimization portfolio project
 
 ###Setting up Project:
-#######  I installed node.js and gulp than re-organised the project folder so all the original HTML/CSS/JavaScript/images is in the 'Dev' folder. The system set up in a way that if I start gulp it will start a listener and will compress any element changed in the 'Dev' folder and move it in the right place in the project folder. <br/>Check ['Dev'](https://github.com/DevRob/Udacity-WebDev-project4/tree/master/Dev) folder for commented readable codes.
+######  I installed node.js and gulp than re-organised the project folder so all the original HTML/CSS/JavaScript/images is in the 'Dev' folder. The system set up in a way that if I start gulp it will start a listener and will compress any element changed in the 'Dev' folder and move it in the right place in the project folder. <br/>Check ['Dev'](https://github.com/DevRob/Udacity-WebDev-project4/tree/master/Dev) folder for commented readable codes.
 
 ###Part 1: Optimize index.html
 
